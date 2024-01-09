@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "qubox-ufsc"
+version = "0.1.0"
+description = ""
+authors = ["Evandro Chagas Ribeiro da Rosa <evandro@quantuloop.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sphinx = "^5"
+furo = "^2022.12.7"
+sphinx-copybutton = "^0.5.1"
+sphinx-inline-tabs = "^2022.1.2b11"
+pygments-ket = "^0.2"
+nbsphinx = "^0.9.1"
+ipython = "^8.11.0"
+sphinx-design = "^0.3.0"
+sphinxext-opengraph = "^0.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx-autobuild = "^2021.3.14"
+ipykernel = "^6.21.3"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

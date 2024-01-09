@@ -1,0 +1,8 @@
+sphinx
+furo
+sphinx-panels
+sphinx-copybutton
+sphinx-inline-tabs
+pygments-ket
+nbsphinx
+IPython
